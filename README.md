@@ -1,2 +1,4 @@
-# discord-captcha-bot
-Python
+# Python Discord Captcha Bot
+
+Example:
+![example](images/captcha.png)

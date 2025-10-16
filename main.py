@@ -33,7 +33,7 @@ def generate_captcha_image(text: str):
     background_color = (240, 240, 240)
     img = Image.new("RGB", (width, height), color=background_color)
     draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype("Roboto-Regular.ttf", 40)
+    font = ImageFont.truetype("font.ttf", 40)
 
     for _ in range(30):
         start = (random.randint(0, width), random.randint(0, height))
